@@ -20,3 +20,15 @@ GitHub reads that specific path, not this one. Edit that file to change what vis
 - Every live repository carries a description, topics, and a Website link where one exists.
 - Archived repositories are prefixed `⛔️ ARCHIVED` and carry a banner at the top of their README.
 - Secret scanning and push protection are enabled by default for new repositories here.
+
+## Structure and layout
+
+Repository structure at the top level:
+
+- `profile`/
+
+## Usage
+
+Open the Markdown files directly; no build or install step exists.
+
+Configuration, where any exists, comes from environment variables — never commit real values.
